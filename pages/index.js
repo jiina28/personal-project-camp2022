@@ -1,11 +1,16 @@
-import styles from '../styles/Home.module.css'
-import SideBar from '../components/sidebar'
 import Home from './home'
-import Footer from '../components/footer'
+import Layout from "../components/sidebar";
 
 
 export default function Main() {
   return (
+    <div>
+      <div>
+      <Layout />
+      </div>
+      <div>
       <Home />
+      </div>
+    </div>
   );
 }
