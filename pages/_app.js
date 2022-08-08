@@ -4,8 +4,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 import { useEffect, useState } from 'react'
 
-import Layout from "../components/sidebar";
-
 function MyApp({ Component, pageProps }) {
   const [showChild, setShowChild] = useState(false)
   useEffect(() => {
